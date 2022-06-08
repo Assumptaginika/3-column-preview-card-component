@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lobster&display=swap');
+
+
+
+.attribution { font-size: 15px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-size: 15px;
+
+}
+div.container {
+
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    margin: 50px auto;
+    background-color:  hsla(0, 0%, 100%, 0.75);
+    box-shadow: 8px 8px 25px 1px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 0px 3px;
+
+
+
+    
+}
+    #grid {
+        width: 800px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 900px;
+        height: 500px;
+        background-color: white;
+        overflow: hidden;
+        margin-left: 150px;
+        border-radius: 10px;
+        float: left;
+        
+
+
+}
+.box {
+    padding: 30px 30px;
+    margin: 50px auto;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 3px;
+    transition: all 1s;
+
+}
+img {
+    padding-bottom: 40px;
+}
+h2 {
+    padding-bottom: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Big Shoulders Display;
+    font-size: 30px;
+}
+p {
+    margin-bottom: 50px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+}
+
+div.box.items2 {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+}
+div.box.items3 {
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
+button {
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: none;
+} 
+
+div.box.item1 button:hover {
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid white;
+    color: transparent;
+
+
+}
+div.box.item2 button:hover {
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid white;
+    color: transparent;
+ 
+}
+div.box.item3 button:hover {
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid white;
+    color: transparent;
+
+}
